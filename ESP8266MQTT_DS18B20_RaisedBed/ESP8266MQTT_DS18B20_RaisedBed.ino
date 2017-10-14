@@ -27,6 +27,8 @@
 
 #define DS18B20_PWR_ON                digitalWrite(ONE_WIRE_BUS_PWR, HIGH);
 
+const char* ssid = "";//
+const char* password = "";//
 
 const char* mqtt_server = "192.168.1.44";
 const char* mqtt_username = "";
